@@ -16,7 +16,7 @@ const Nav = styled.div`
     z-index: 1;
     position: fixed;
     width: 100%;
- justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 1em;
     background: #010101;
@@ -24,7 +24,7 @@ const Nav = styled.div`
 
 
 export const StyledLink = styled(Link)`
- color: #FFFEFC;
+    color: #FFFEFC;
     text-decoration: none;
     padding: 1.4em 2.2em 0em 0.1em;
     font-size: 0.9em;
@@ -36,7 +36,6 @@ export const StyledLink = styled(Link)`
     &:hover {
         color: #86BBBD;
     }
-
 `;
 
 const links = [
@@ -47,8 +46,8 @@ const links = [
     },
     {
         id: 2,
-        to: "/persona",
-        text: "Persona"
+        to: "/about",
+        text: "About"
     },
     {
         id: 3,
@@ -59,11 +58,6 @@ const links = [
         id: 4,
         to: "/portfolio",
         text: "Portfolio"
-    },
-    {
-        id: 5,
-        to: "/contact",
-        text: "Contact"
     }
 
 ];

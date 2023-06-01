@@ -7,11 +7,9 @@ import {
 } from "react-router-dom";
 
 import Home from './pages/Home';
-import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Persona from './pages/Persona';
+import About from './pages/About';
 import Knowledge from './pages/Knowledge';
-
 import Navbar from './Navbar';
 import Footer from './components/Footer';
 
@@ -47,11 +45,8 @@ function App() {
 
         <MainContainer>
           <Switch>
-            <Route path="/persona">
-              <Persona />
-            </Route>
-            <Route path="/contact">
-              <Contact />
+            <Route path="/about">
+              <About />
             </Route>
             <Route path="/portfolio">
               <Portfolio />

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import downloadicon from '../assets/download.png';
 import liicon from '../assets/linkedin.png';
+import mailicon from '../assets/mailicon.svg';
 import MyPDF from '../assets/CV_Deniz_Aktas.pdf';
 
 const StyledFooter = styled.footer`
@@ -15,7 +16,6 @@ const StyledFooter = styled.footer`
     max-height: 5em;
     width: 100vw;
     z-index: 2;
-/*  grid-area: footer; */
     position: fixed;
     bottom: 0;
     font-size: 0.9em;
@@ -35,15 +35,21 @@ const StyledLogo = styled.img`
 let footerContents = [
     {
         id: 1,
-        href: MyPDF,
-        iconurl: downloadicon,
-        alttext: "LinkedIn icon"
+        href: "mailto: deniz.isaksson@gmail.com",
+        iconurl: mailicon,
+        alttext: "Mail icon"
     },
     {
         id: 2,
         href: "https://www.linkedin.com/in/deniz-isaksson/",
         iconurl: liicon,
         alttext: "Download CV icon"
+    },
+    {
+        id: 3,
+        href: MyPDF,
+        iconurl: downloadicon,
+        alttext: "LinkedIn icon"
     }
 ]
 
