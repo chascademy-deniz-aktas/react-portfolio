@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import styled from "styled-components";
 import downloadicon from '../assets/download.png';
 import liicon from '../assets/linkedin.png';
@@ -35,7 +36,7 @@ const StyledLogo = styled.img`
 let footerContents = [
     {
         id: 1,
-        href: "mailto: deniz.isaksson@gmail.com",
+        href: "mailto:deniz.isaksson@gmail.com",
         iconurl: mailicon,
         alttext: "Mail icon"
     },

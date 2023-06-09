@@ -14,8 +14,8 @@ function Card(props) {
             <CardHeader>{props.headline}</CardHeader>
             <CardBody>{props.description}</CardBody>
 
-            <Cardbutton>{props.buttonLink}</Cardbutton>
+            <Cardbutton >{props.href}</Cardbutton>
         </CardContainer>
-    )
+    );
 }
 export default Card;

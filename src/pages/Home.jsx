@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import portrait from '../assets/portrait.jpg';
-//import workline from '../assets/workline.png';
+import portrait from '../assets/profile_img.jpg';
 
 import Typewriter from "typewriter-effect";
 
@@ -18,43 +17,56 @@ const MainImgcontainer = styled.div`
 
 `;
 
-
 const StyledMainimg = styled.img`
-    width: 30vw;
+    width: 45vw;
+    margin-left: 5em;
+
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
 
 @media screen and (max-width: 600px) {
-       width: 60vw;
+    width: 60vw;
+    margin-left: 1.5em;
     }
 `;
-
-/*const WorkLine = styled.img`
-    width: 20vw;
-    float: none;
-    object-position: 60% 40%;
-    z-index: 1;
-`; */
-
 
 const TypedText = styled.div`
     display: flex;
     flex-wrap: wrap;
     font-family: 'Archivo', sans-serif;
-        color: #A7C3C7;
+    color: #A7C3C7;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3.8em;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     padding-left: 2em;
 
+@media screen and (max-width: 1220px) {
+    font-size: 3em;
+    padding-left: 0.7em;
+}
+
 @media screen and (max-width: 1030px) {
     font-size: 2.5em;
+    padding-left: 1em;
 }
 
 @media screen and (max-width: 900px) {
     font-size: 2em;
     padding-top: 2em;
-        padding-left: 0;
+    padding-left: 0;
   }
+
+@media screen and (max-width: 650px) {
+    font-size: 1.9em;
+}
 `;
 
 
@@ -88,8 +100,6 @@ function Home() {
                     />
                 </TypedText>
             </MainImgcontainer>
-
-
 
         </>
     );

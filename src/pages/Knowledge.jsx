@@ -15,11 +15,20 @@ const HeaderLine = styled.div`
 const Textdiv = styled.div`
     width: 50%;
     height: auto;
-//text-align: center;
     border-radius: 1px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
+
+    
+    @media screen and (max-width: 1030px) {
+    width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+    width: 80%;
+    font-size: 0.9em;
+}
 `
 
 function Knowledge() {

@@ -23,8 +23,12 @@ export const CardContainer = styled.div`
         hsl(185deg 41% 10%) 85%,
         hsl(185deg 44% 11%) 100%
         );
-`;
 
+@media screen and (max-width: 750px) {
+    width: 225px;
+    height: 315px;
+}
+`;
 
 /* The headline*/
 export const CardHeader = styled.div`
@@ -32,11 +36,16 @@ export const CardHeader = styled.div`
     font-weight: 700;
     line-height: 106%;
     font-size: 1.25em;
+    word-wrap: break-word;
     width: 95%;
     letter-spacing: 0.05em;
     margin-top: 1em;
     text-transform: uppercase;
     color: #F2F2F2;
+
+@media screen and (max-width: 750px) {
+    font-size: 1.1em;
+}
 `;
 
 /* The description text*/
@@ -44,14 +53,19 @@ export const CardBody = styled.p`
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 1em;
+    text-align: left;
+    word-wrap: break-word;
     letter-spacing: 0.06em;
     width: 95%;
     height: 70px;
     line-height: 140%;
     margin-bottom: 1.5em;
     color: #FFFFFF;
-`;
 
+@media screen and (max-width: 750px) {
+    font-size: 0.9em;
+}
+`;
 
 /* The settings for the image*/
 export const StyledCardPic = styled.img`
@@ -59,29 +73,9 @@ export const StyledCardPic = styled.img`
     height: 240px;
     object-fit: cover;
     border-radius: 6px;
-    //margin: 5px;
     background-color: white;
-`;
 
-/* The button*/
-export const CardButton = styled.button`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 8px;
-    width: auto;
-    height: 30px;
-
-    background: #A7C3C7;
-    border-radius: 5px;
-    border-style: none;
-
-    font-family: 'Archivo';
-    font-weight: 800;
-    font-size: 12px;
-    //line-height: 8px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #242424;
+@media screen and (max-width: 750px) {
+    height: 180px;
+}
 `;
