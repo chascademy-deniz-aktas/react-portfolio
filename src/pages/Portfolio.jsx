@@ -28,7 +28,7 @@ function Portfolio() {
 
     return (
         <>
-            <h1>This is where <br /> the portfolio goes</h1>
+            <h1>A small selection of <br />  work I have done so far</h1>
             <HeaderLine />
 
             <CardContainer>
