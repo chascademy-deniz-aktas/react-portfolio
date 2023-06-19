@@ -50,8 +50,8 @@ const links = [
     },
     {
         id: 3,
-        to: "/knowledge",
-        text: "Knowledge"
+        to: "/experience",
+        text: "Experience"
     },
     {
         id: 4,

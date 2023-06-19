@@ -9,7 +9,7 @@ import {
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
-import Knowledge from './pages/Knowledge';
+import Experience from './pages/Experience';
 import Navbar from './Navbar';
 import Footer from './components/Footer';
 
@@ -51,8 +51,8 @@ function App() {
             <Route path="/portfolio">
               <Portfolio />
             </Route>
-            <Route path="/knowledge">
-              <Knowledge />
+            <Route path="/experience">
+              <Experience />
             </Route>
             <Route path="/">
               <Home />

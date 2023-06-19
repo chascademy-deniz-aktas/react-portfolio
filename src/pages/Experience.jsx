@@ -31,7 +31,7 @@ const Textdiv = styled.div`
 }
 `
 
-function Knowledge() {
+function Experience() {
 
     return (
         <>
@@ -120,4 +120,4 @@ function Knowledge() {
     );
 }
 
-export default Knowledge;
+export default Experience;

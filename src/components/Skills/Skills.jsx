@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import almeThumb from '../../assets/almedalen.png';
 import amecThumb from '../../assets/amec_thumb.svg';
 import pbiThumb from '../../assets/pbi_thumb.svg';
-import posterThumb from '../../assets/poster_thumb.svg';
+import posterThumb from '../../assets/poster.png';
 import officeThumb from '../../assets/office_thumb.svg';
 import artThumb from '../../assets/art.svg';
 import booksThumb from '../../assets/books_thumb.svg';
