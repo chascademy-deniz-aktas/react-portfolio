@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {
   BrowserRouter as Router,
   Route,
-  Switch
+  Routes
 } from "react-router-dom";
 
 import Home from './pages/Home';
@@ -44,20 +44,12 @@ function App() {
         <Navbar />
 
         <MainContainer>
-          <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/portfolio">
-              <Portfolio />
-            </Route>
-            <Route path="/knowledge">
-              <Knowledge />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/knowledge" element={<Knowledge />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
         </MainContainer>
 
         <Footer />
