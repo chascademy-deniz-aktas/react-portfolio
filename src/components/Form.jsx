@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const StyledInput = styled.input`
-    background: #e2e9e9;
+    background: #EAE9E8;
     padding: 12px;
     border-radius: 5px;
     width: 250px;
@@ -13,7 +13,7 @@ const StyledInput = styled.input`
 `;
 
 const StyledButton = styled.button`
-    background: #62C8CC;
+    background: #586F6B;
     color: #F2F2F2;
     padding: 12px;
     border-radius: 3px;

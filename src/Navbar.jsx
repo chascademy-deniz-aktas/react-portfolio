@@ -22,7 +22,6 @@ const Nav = styled.div`
     background: #010101;
 `;
 
-
 export const StyledLink = styled(Link)`
     color: #FFFEFC;
     text-decoration: none;
@@ -59,7 +58,6 @@ const links = [
         to: "/portfolio",
         text: "Portfolio"
     }
-
 ];
 
 
@@ -67,10 +65,8 @@ export const StyledNav = styled.nav`
     display: flex;
     flex-direction: row;
     z-index: 1;
-    //position: fixed;
     padding: 1em;
     background: #010101;
-
     justify-content: space-between;
     align-items: center;
     grid-area: top;
@@ -104,10 +100,8 @@ const Navbar = () => {
             <StyledNav>
                 {links.map(link => <StyledLink to={link.to} key={link.id}>{link.text}</StyledLink>)}
             </StyledNav>
-            <Hamburger links={links}>
 
-
-            </Hamburger>
+            <Hamburger links={links}></Hamburger>
         </Nav>
     );
 }
