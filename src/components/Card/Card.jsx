@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 
 import { CardContainer, StyledCardPic, CardHeader, CardBody } from './styles';
 import Cardbutton from '../../components/Cardbutton';
@@ -14,7 +14,8 @@ function Card(props) {
             <CardHeader>{props.headline}</CardHeader>
             <CardBody>{props.description}</CardBody>
 
-            <Cardbutton >{props.href}</Cardbutton>
+            <Cardbutton >{props.buttonLink}</Cardbutton>
+
         </CardContainer>
     );
 }

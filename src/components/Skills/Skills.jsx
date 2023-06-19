@@ -21,7 +21,7 @@ const Skills = () => {
             cardPic: amecThumb,
             headline: "AMEC Awards material",
             description: "All the graphic material for the international summit for AMEC.",
-            buttonLink: "https://www.linkedin.com/in/deniz-isaksson/"
+            buttonLink: "href='https://www.linkedin.com/in/deniz-isaksson/'"
         },
         {
             id: 2,
