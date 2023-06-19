@@ -9,6 +9,7 @@ import logo from './assets/logo.png';
 
 /* The container for the content*/
 const Nav = styled.div`
+
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -58,6 +59,7 @@ const links = [
         to: "/portfolio",
         text: "Portfolio"
     }
+
 ];
 
 
@@ -65,8 +67,10 @@ export const StyledNav = styled.nav`
     display: flex;
     flex-direction: row;
     z-index: 1;
+    //position: fixed;
     padding: 1em;
     background: #010101;
+
     justify-content: space-between;
     align-items: center;
     grid-area: top;
