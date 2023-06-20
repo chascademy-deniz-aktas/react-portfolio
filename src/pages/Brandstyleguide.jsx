@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'
 
 import backbutton from '../assets/backbutton.svg';
 import brand_large from '../assets/brandstyleguide_large.png';
-
 
 const BackButton = styled.img`
     padding-bottom: 25px;
@@ -15,7 +15,7 @@ const BackButton = styled.img`
 `;
 
 const Textdiv = styled.div`
-    width: 50%;
+    width: 50vw;
     height: auto;
     border-radius: 1px;
     margin-left: auto;
@@ -25,28 +25,13 @@ const Textdiv = styled.div`
 
 const PortfolioContainer = styled.div`
     display: flex;
-    max-width: 60vw;
+    width: 50vw;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 `
 const StyledPortimg = styled.img`
-    width: 90vw;
-
-@media screen and (max-width: 800px) {
-    width: 42vw;
-    margin-left: 4em;
-    }
-
-@media screen and (max-width: 750px) {
-    width: 40vw;
-    margin-left: 2.5em;
-    }
-
-@media screen and (max-width: 600px) {
-    width: 60vw;
-    margin-left: 1.5em;
-    }
+    width: 100%;
 `;
 
 function BrandPortfolio() {
@@ -63,11 +48,13 @@ function BrandPortfolio() {
 
         <p>1. First, I built a brand identity by interviewing the owner and look at competitors in the same business.
           <br />
+          <br />
           2. Based on this and the existing graphic assets the style guide was created.
           I created a pictorial mark to supplement the less applicable landscape version, and a color palette based on the tertiary principle with a take-off in the one color they had.
           The typography was to be easy to read, minimalistic and feel simple. The font of the headings is meant to bring to mind pipes with the rounded shapes and still retain readability.
           The icons are thin, clean and have rounded lines to follow up on the feel of the fonts. There is both simple basic variants or more detailed ones as a complement instead of other graphics.
           The imagery should reflect the company's principles and harmonize with the color palette. Cheerful people, concentrated at work, calm and warm pictures. They should convey security, order and professionalism (based on their principles). The images in situations and environments should be in line with the viewer to reinforce the feeling that we are on the same level, collaborating, a bit like seeing things in place. Images come in three categories: environments, details, and situations.
+          <br />
           <br />
           3. A page with mockup examples of how to combine different colors etc for the web, and one for print with business cards and merch as well as a striped car.
 

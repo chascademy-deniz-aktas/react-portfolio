@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import GitHubLogo from '../assets/GitHub.svg';
 
@@ -60,23 +59,6 @@ const GitHub = styled.div`
     justify-content: center;
 `
 
-const StyledLink = styled(Link)`
-    color: #FFFEFC;
-    text-decoration: none;
-    word-wrap: break-word;
-    font-size: 0.9em;
-    cursor: pointer;
-    transition: all 0.1s ease-in;
-
-    &:hover {
-        color: #86BBBD;
-    }
-
-@media screen and (max-width: 750px) {
-    font-size: 0.8em;
-}
-`;
-
 const GhLogoContainer = styled.div`
     max-width: 5rem;
     margin-top: 0.7em;
@@ -103,12 +85,11 @@ function Portfolio() {
             </PortfolioContainer>
 
             <GitHub>
-                <StyledLink href="https://github.com/chascademy-deniz-aktas" target="_blank">Want to see my frontend projects? Here is the link to my GitHub account! </StyledLink>
+                <a href="https://github.com/chascademy-deniz-aktas" target="_blank">Want to see my frontend projects? Here is the link to my GitHub account! </a>
                 <GhLogoContainer>
                     <GhLogo src={GitHubLogo} alt="GitHub icon" />
                 </GhLogoContainer>
             </GitHub>
-
 
 
         </>

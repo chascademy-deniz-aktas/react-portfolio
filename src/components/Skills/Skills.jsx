@@ -29,7 +29,7 @@ const Skills = () => {
             cardPic: posterThumb,
             headline: "Library posters",
             description: "Mediearkivets posters to hang in public librarys.",
-            buttonLink: "/experience"
+            buttonLink: "/posters"
         },
         {
             id: 3,

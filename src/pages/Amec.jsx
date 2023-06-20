@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'
 
 import backbutton from '../assets/backbutton.svg';
 import amec_large from '../assets/amec_large.png';
@@ -15,7 +16,7 @@ const BackButton = styled.img`
 `;
 
 const Textdiv = styled.div`
-    width: 50%;
+    width: 50vw;
     height: auto;
     border-radius: 1px;
     margin-left: auto;
@@ -25,28 +26,13 @@ const Textdiv = styled.div`
 
 const PortfolioContainer = styled.div`
     display: flex;
-    max-width: 60vw;
+    width: 50vw;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 `
 const StyledPortimg = styled.img`
-    width: 90vw;
-
-@media screen and (max-width: 800px) {
-    width: 42vw;
-    margin-left: 4em;
-    }
-
-@media screen and (max-width: 750px) {
-    width: 40vw;
-    margin-left: 2.5em;
-    }
-
-@media screen and (max-width: 600px) {
-    width: 60vw;
-    margin-left: 1.5em;
-    }
+    width: 100%;
 `;
 
 function Amec() {

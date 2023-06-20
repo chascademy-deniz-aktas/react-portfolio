@@ -22,3 +22,22 @@
   }
 }
 
+a{
+    color: #FFFEFC;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+
+
+
+    &:hover {
+        color: #86BBBD;
+    }
+
+
+@media screen and (max-width: 750px) {
+    font-size: 0.8em;
+}
+}
