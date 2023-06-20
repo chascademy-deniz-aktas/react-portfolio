@@ -1,15 +1,12 @@
 import React, { useState } from "react";
-import styled, { css } from "styled-components";
-import {
-    Link
-} from "react-router-dom";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 import Hamburger from './components/Hamburger';
 import logo from './assets/logo.png';
 
 /* The container for the content*/
 const Nav = styled.div`
-
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;

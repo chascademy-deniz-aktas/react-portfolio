@@ -13,6 +13,17 @@ import Experience from './pages/Experience';
 import Navbar from './Navbar';
 import Footer from './components/Footer';
 
+import Amec from './pages/Amec';
+import Office from './pages/Office';
+import Brandstyleguide from './pages/Brandstyleguide';
+import Analysis from './pages/Analysis';
+import PowerBI from './pages/PowerBI';
+import Almedalen from './pages/Almedalen';
+import Bookbinding from './pages/Bookbinding';
+import Artwork from './pages/Artwork';
+
+
+
 const MainContainer = styled.div`
   grid-area: main;
   margin-top: 5em;
@@ -40,7 +51,6 @@ function App() {
     <Router>
       <GridContainer>
 
-
         <Navbar />
 
         <MainContainer>
@@ -56,6 +66,30 @@ function App() {
             </Route>
             <Route path="/">
               <Home />
+            </Route>
+            <Route path="/amec">
+              <Amec />
+            </Route>
+            <Route path="/office">
+              <Office />
+            </Route>
+            <Route path="/brandstyleguide">
+              <Brandstyleguide />
+            </Route>
+            <Route path="/analysis">
+              <Analysis />
+            </Route>
+            <Route path="/powerbi">
+              <PowerBI />
+            </Route>
+            <Route path="/almedalen">
+              <Almedalen />
+            </Route>
+            <Route path="/bookbinding">
+              <Bookbinding />
+            </Route>
+            <Route path="/artwork">
+              <Artwork />
             </Route>
           </Switch>
         </MainContainer>

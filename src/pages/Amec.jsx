@@ -31,7 +31,7 @@ const PortfolioContainer = styled.div`
     margin-right: auto;
 `
 
-function AmecPortfolio() {
+function Amec() {
 
   return (
     <>
@@ -56,4 +56,4 @@ function AmecPortfolio() {
   );
 }
 
-export default AmecPortfolio;
+export default Amec;

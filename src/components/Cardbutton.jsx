@@ -18,6 +18,7 @@ const ExploreButton = styled.button`
     font-family: 'Archivo';
     font-weight: 800;
     font-size: 14px;
+    text-decoration: none;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #242424;
@@ -43,19 +44,14 @@ const ButtonIcon = styled.img`
 `;
 
 
-const CardButton = () => {
+const CardButton = (props) => {
 
   return (
-    <Link>
-
+    <a href={props.link} rel="noopener noreferrer">
       <ExploreButton > Explore!
         <ButtonIcon src={arrowicon} alt="Arrow icon" />
       </ExploreButton>
-
-    </Link>
-
-
-
+    </a>
   )
 }
 

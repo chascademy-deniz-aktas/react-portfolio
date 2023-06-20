@@ -4,7 +4,7 @@ import styled from "styled-components";
 import downloadicon from '../assets/download.png';
 import liicon from '../assets/linkedin.png';
 import mailicon from '../assets/mailicon.svg';
-import MyPDF from '../assets/CV_Deniz_Aktas.pdf';
+import MyPDF from '../assets/CV_Deniz_Isaksson.pdf';
 
 const StyledFooter = styled.footer`
     display: flex;
