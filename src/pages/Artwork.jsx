@@ -30,6 +30,24 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
+
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
 
 function ArtPortfolio() {
 
@@ -45,8 +63,9 @@ function ArtPortfolio() {
 
         <p>An art dealer contacted me after a friend showed a few pieces and wanted to exhibit them. Here are some examples.</p>
       </Textdiv>
-
-      <PortfolioContainer src={art_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={art_large} />
+      </PortfolioContainer >
     </>
   );
 }

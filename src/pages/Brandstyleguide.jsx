@@ -30,6 +30,24 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
+
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
 
 function BrandPortfolio() {
 
@@ -56,7 +74,9 @@ function BrandPortfolio() {
         </p>
       </Textdiv>
 
-      <PortfolioContainer src={brand_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={brand_large} />
+      </PortfolioContainer >
     </>
   );
 }

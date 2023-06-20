@@ -30,8 +30,26 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
 
-function PbiPortfolio() {
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
+
+function Powerbi() {
 
   return (
     <>
@@ -46,9 +64,11 @@ function PbiPortfolio() {
         <p>This client needed a graphic dummy for the dashboard of a new project.They needed another way to present data other than just the ordinary diagrams, and in this example only the keywords and values change when updating the data.</p>
       </Textdiv>
 
-      <PortfolioContainer src={powerbi_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={powerbi_large} />
+      </PortfolioContainer >
     </>
   );
 }
 
-export default PbiPortfolio;
+export default Powerbi;

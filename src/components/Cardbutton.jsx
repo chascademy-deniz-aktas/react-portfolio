@@ -47,8 +47,8 @@ const ButtonIcon = styled.img`
 const CardButton = (props) => {
 
   return (
-    <Link to={props.link || '/#'}>
-      <ExploreButton > Explore!
+    <Link to={props.link}>
+      <ExploreButton> Explore!
         <ButtonIcon src={arrowicon} alt="Arrow icon" />
       </ExploreButton>
     </Link>

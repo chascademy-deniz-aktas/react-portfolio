@@ -30,6 +30,24 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
+
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
 
 function Amec() {
 
@@ -51,7 +69,9 @@ function Amec() {
           and at the same time put focus on the summit taking place in Sweden this time.</p>
       </Textdiv>
 
-      <PortfolioContainer src={amec_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={amec_large} />
+      </PortfolioContainer >
     </>
   );
 }

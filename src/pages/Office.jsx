@@ -30,8 +30,26 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
 
-function OfficePortfolio() {
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
+
+function Office() {
 
   return (
     <>
@@ -47,9 +65,11 @@ function OfficePortfolio() {
           The color palette is based on the company brand manual, as well as the visual profile.</p>
       </Textdiv>
 
-      <PortfolioContainer src={office_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={office_large} />
+      </PortfolioContainer >
     </>
   );
 }
 
-export default OfficePortfolio;
+export default Office;

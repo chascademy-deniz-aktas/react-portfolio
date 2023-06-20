@@ -80,7 +80,6 @@ const Skills = () => {
             description: "Exhibition of my paintings.",
             buttonLink: "/artwork"
         }
-
     ];
 
     return (

@@ -30,6 +30,24 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
+
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
 
 function AnalysisPortfolio() {
 
@@ -46,8 +64,9 @@ function AnalysisPortfolio() {
         <p>All the PowerPoint templates for Retrievers analysis international department, to ensure the visual dentity.
           A standing version for shorter reports and a landscape version for larger measurement analysis. This is a selection of the 70 pages template in three color schemes. </p>
       </Textdiv>
-
-      <PortfolioContainer src={analysis_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={analysis_large} />
+      </PortfolioContainer >
     </>
   );
 }

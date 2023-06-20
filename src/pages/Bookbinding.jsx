@@ -30,6 +30,24 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
+
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
 
 function BookPortfolio() {
 
@@ -46,7 +64,9 @@ function BookPortfolio() {
         <p>Hard case books, soft case books and boxes made with traditional craftmanship.</p>
       </Textdiv>
 
-      <PortfolioContainer src={books_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={books_large} />
+      </PortfolioContainer >
     </>
   );
 }

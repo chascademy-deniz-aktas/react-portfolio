@@ -30,8 +30,26 @@ const PortfolioContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
 `
+const StyledPortimg = styled.img`
+    width: 90vw;
 
-function PosterPortfolio() {
+@media screen and (max-width: 800px) {
+    width: 42vw;
+    margin-left: 4em;
+    }
+
+@media screen and (max-width: 750px) {
+    width: 40vw;
+    margin-left: 2.5em;
+    }
+
+@media screen and (max-width: 600px) {
+    width: 60vw;
+    margin-left: 1.5em;
+    }
+`;
+
+function Poster() {
 
   return (
     <>
@@ -47,9 +65,11 @@ function PosterPortfolio() {
           Their wish was to make something discreet that follows the brand book but still stand out.</p>
       </Textdiv>
 
-      <PortfolioContainer src={poster_large} />
+      <PortfolioContainer>
+        <StyledPortimg src={poster_large} />
+      </PortfolioContainer >
     </>
   );
 }
 
-export default PosterPortfolio;
+export default Poster;
