@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 function Powerbi() {
@@ -44,7 +46,7 @@ function Powerbi() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>Power BI dummy</h2>
+        <h2>POWER BI DUMMY</h2>
         <h3>Dummy setup for Power BI-dashboard</h3>
 
         <p>This client needed a graphic dummy for the dashboard of a new project.They needed another way to present data other than just the ordinary diagrams, and in this example only the keywords and values change when updating the data.</p>

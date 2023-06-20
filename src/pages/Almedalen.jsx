@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 

@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 function Office() {
@@ -44,7 +46,7 @@ function Office() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>MS office icons</h2>
+        <h2>MS OFFICE ICONS</h2>
         <h3>Icons for custom ribbons in Microsoft Office</h3>
 
         <p>This project was about creating new, intuitive icons for custom functionality in the ribbon of Office programs.

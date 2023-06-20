@@ -32,6 +32,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 function BrandPortfolio() {
@@ -43,7 +45,7 @@ function BrandPortfolio() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>Brand Style Guide assignment</h2>
+        <h2>BRAND STYLE GUIDE ASSIGNMENT</h2>
         <h3>Educational assignment to create a Brand Style Guide containing a logo, typography, color palette and imagery, and the brand guide.</h3>
 
         <p>1. First, I built a brand identity by interviewing the owner and look at competitors in the same business.

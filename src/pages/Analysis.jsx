@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 function AnalysisPortfolio() {
@@ -44,7 +46,7 @@ function AnalysisPortfolio() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>Analysis templates</h2>
+        <h2>ANALYSIS TEMPLATES</h2>
         <h3>PowerPoint templates for producing reports</h3>
 
         <p>All the PowerPoint templates for Retrievers analysis international department, to ensure the visual dentity.

@@ -18,7 +18,7 @@ const BackButton = styled.img`
 const Textdiv = styled.div`
     width: 50vw;
     height: auto;
-    border-radius: 1px;
+
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5em;
@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 function Amec() {
@@ -44,7 +46,7 @@ function Amec() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>AMEC awards 2015</h2>
+        <h2>AMEC AWARDS 2015</h2>
         <h3>Material for the international AMEC Awards Summit</h3>
 
         <p>Retriever AB had the opportunity to host the international summit for AMEC,

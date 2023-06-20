@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 function Poster() {
@@ -44,7 +46,7 @@ function Poster() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>mediearkivet Posters</h2>
+        <h2>MEDIEARKIVET POSTERS</h2>
         <h3>Posters for swedish public libraries</h3>
 
         <p>The department for Mediearkivet ordered two 50x70 cm posters to hand out for some Swedish libraries in order to make the students aware of their service.

@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+
+
 `;
 
 function BookPortfolio() {
@@ -44,7 +46,7 @@ function BookPortfolio() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>book binding products</h2>
+        <h2>BOOK BINDING PRODUCTS</h2>
         <h3>handmade books and boxes</h3>
 
         <p>Hard case books, soft case books and boxes made with traditional craftmanship.</p>

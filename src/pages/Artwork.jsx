@@ -33,6 +33,8 @@ const PortfolioContainer = styled.div`
 `
 const StyledPortimg = styled.img`
     width: 100%;
+    background-color: white;
+    border-radius: 10px;
 `;
 
 function ArtPortfolio() {
@@ -44,7 +46,7 @@ function ArtPortfolio() {
           <BackButton src={backbutton} alt="Go back" />
         </Link>
 
-        <h2>Art Work</h2>
+        <h2>ART WORK</h2>
         <h3>Vernissage for paintings</h3>
 
         <p>An art dealer contacted me after a friend showed a few pieces and wanted to exhibit them. Here are some examples.</p>

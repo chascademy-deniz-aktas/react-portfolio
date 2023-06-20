@@ -21,6 +21,7 @@ import PowerBI from './pages/PowerBI';
 import Almedalen from './pages/Almedalen';
 import Bookbinding from './pages/Bookbinding';
 import Artwork from './pages/Artwork';
+import Posters from './pages/Posters';
 
 
 
@@ -81,6 +82,9 @@ function App() {
             </Route>
             <Route path="/almedalen">
               <Almedalen />
+            </Route>
+            <Route path="/posters">
+              <Posters />
             </Route>
             <Route path="/bookbinding">
               <Bookbinding />
