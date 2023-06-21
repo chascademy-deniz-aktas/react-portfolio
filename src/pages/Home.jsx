@@ -14,7 +14,6 @@ const MainImgcontainer = styled.div`
 @media screen and (max-width: 600px) {
        flex-direction: column;
   }
-
 `;
 
 const StyledMainimg = styled.img`
@@ -68,10 +67,6 @@ const TypedText = styled.div`
     font-size: 1.9em;
 }
 `;
-
-
-
-
 
 function Home() {
     return (
