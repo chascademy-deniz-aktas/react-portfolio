@@ -12,7 +12,7 @@ const StyledFooter = styled.footer`
     justify-content: center;
     align-items: center;
     grid-area: footer;
-    background-color: #090909;
+    background-color: #010101;
     color: #fdece8;
     max-height: 5em;
     width: 100vw;

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { css } from "styled-components";
 
+/* De tre linjerna i hamburgaren*/
 const normal = css`
     transform: rotate(0deg);
     &:nth-child(1) { top: 12px;  transform-origin: 0% 0%; }
@@ -8,6 +9,7 @@ const normal = css`
     &:nth-child(3) { top: 36px; transform-origin: 0% 100%; }
     `;
 
+/* Krysset vid öppnad*/
 const crossmark = css`
             &:nth-child(1) { 
                 top: 12px;  
@@ -83,7 +85,6 @@ export const StyledResMenu = styled.div`
     & {
         a {
             margin-right: 3em;
-
         }
 
         a:nth-child(1) {
